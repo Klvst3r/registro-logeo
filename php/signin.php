@@ -10,7 +10,7 @@ if(!empty($_POST)){
 			$username = $_POST['username'];
 			$password = md5(htmlentities($_POST["password"]));
 
-			echo $sql1= "select * from user where (username='$username' or email='$username') and password='$password' ";
+			$sql1= "select * from user where (username='$username' or email='$username') and password='$password' ";
 			
 			$query = $con->query($sql1);
 			

@@ -30,6 +30,6 @@
 </div>
 </div>
 </div>
-		<script src="js/valida_signin.js"></script>
+		<script src="js/valid_signin.js"></script>
 	</body>
 </html>
