@@ -18,7 +18,7 @@
       <li><a href="./signupForm.php">Sign Up</a></li>
       <li><a href="./login.php">Sign In</a></li>
     <?php else:?>
-      <li><a href="./php/logout.php">Sign Out</a></li>
+      <li><a href="./php/signout.php">Sign Out</a></li>
     <?php endif;?>
     </ul>
 
